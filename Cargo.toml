@@ -1,0 +1,16 @@
+[package]
+name = "pali-types"
+version = "0.1.0"
+edition = "2024"
+authors = ["Yuvinscria Werdxz <werdxz@werdxz.info>"]
+description = "Shared data types for the Pali todo management system"
+license = "MIT"
+repository = "https://github.com/pali-org/types"
+keywords = ["todo", "types", "api", "pali"]
+categories = ["data-structures"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1.0"
